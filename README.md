@@ -24,3 +24,21 @@
   3. The “Loading” text stays fixed at the bottom to notify the user of the status.
 
   4. The infinite loop animation effect at .5s intervals keeps the animation running throughout the waiting time.
+
+✅ Advantages:
+
+  1. The interface is vivid, modern, creating a professional feeling for the website.
+
+  2. Smooth effect thanks to the use of CSS Animation, no javascript.
+
+  3. Easy to customize (glossy, color, motion speed).
+
+  4. Good compatibility with most modern browsers.
+
+❌ Limit:
+
+  1. There is no logic function or actual state processing - just a display effect, not linked to the actual data download process.
+
+  2. Do not support users when JavaScript or CSS is disabled.
+
+  3. Do not respond to real time: Do not know when the content is actually completed (unless combined with JS to hide the effect when completing the load).
